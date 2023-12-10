@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.login-register:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.login {
+    display: none;
+}
+
+.login:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.login a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: inherit;
+}
+
+.modal {
+    display: none;
+    /* 默认隐藏 */
+    position: absolute;
+    /* 固定定位 */
+    z-index: 1;
+    /* 确保在内容之上 */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* 覆盖整个视口宽度 */
+    height: 100%;
+    /* 覆盖整个视口高度 */
+    overflow: auto;
+    /* 如果需要滚动条 */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* 半透明背景 */
+}
+
+/* 模态内容样式 */
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    /* 垂直居中并水平居中 */
+    border: none;
+    border-top: 25px solid #ced4da;
+    border-bottom: 35px solid #ced4da;
+    width: 320px;
+    height: 340px;
+    /* 根据需要调整宽度 */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* 添加阴影效果 */
+}
+
+.close {
+    position: absolute;
+    color: #aaa;
+    /* float: right; */
+    font-size: 28px;
+    font-weight: bold;
+    right: 10px;
+    top: 2px;
+}
+
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.footer {
+    height: 100px;
+    margin-top: auto;
+}

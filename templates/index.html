@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Welcome to ITD{% endblock %}
+
+{% block import %}
+<link rel="stylesheet" href="/CSS/index.css">
+{% endblock %}
+
+{% block content %}
+<div class="container-xl d-flex justify-content-start align-items-center fs-4" style="max-width: 1200px;">
+    註冊即可體驗物件追蹤與識別服務
+</div>
+<div class="container-xl" style="max-width: 1200px;">
+    <hr class="border-2">
+</div>
+<div class="video_container container-xl justify-content-center align-items-center mb-5" style="gap:10px;max-width: 1200px;">
+    <video class="rounded video" autoplay muted loop>
+        <source src="https://d1ia24dwcr0dhu.cloudfront.net/demo-b.mp4">
+    </video>
+    <video class="rounded video" autoplay muted loop>
+        <source src="https://d1ia24dwcr0dhu.cloudfront.net/demo-itd.mp4">
+    </video>
+</div>
+{% endblock %}

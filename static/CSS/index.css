@@ -1,0 +1,14 @@
+.video_container{
+    display: flex;
+}
+.video{
+    width: 50%;
+}
+@media (max-width:900px) {
+    .video_container{
+        flex-wrap: wrap;
+    }
+    .video{
+        width: 90%;
+    }
+}

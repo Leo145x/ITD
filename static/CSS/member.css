@@ -1,0 +1,102 @@
+/* 上傳表單的基本樣式 */
+/* 拖曳區域的樣式 */
+#dropArea {
+    border: 2px dashed gray;
+    border-radius: 5px;
+    max-width: 1180px;
+    height: 280px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+#dropArea.active {
+    background-color: #e9ecef;
+}
+
+#dropArea:hover {
+    border: 4px dashed #0056b3;
+    cursor: pointer;
+    background-color: #e9ecef;
+}
+
+/* 上傳按鈕的樣式 */
+#uploadForm input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#uploadForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.file-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.file-table th,
+.file-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.file-table th {
+    background-color: #f2f2f2;
+}
+
+.download-button {
+    background-color: #5F9EA0;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.download-button:hover{
+    background-color: #4CAF50;
+}
+
+.loading-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+}
+
+.loader {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    /* transform: translate(-50%, -50%); */
+    /* 在此处添加您的加载动画样式 */
+    border: 16px solid #f3f3f3;
+    /* Light grey */
+    border-top: 16px solid gray;
+    /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

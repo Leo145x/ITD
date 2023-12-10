@@ -1,0 +1,9 @@
+.venv
+.git
+.dockerignore
+.vscode
+__pycache__
+Dockerfile
+google_sever_key.json
+.python_version
+.env
