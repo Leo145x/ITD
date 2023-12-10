@@ -1,6 +1,6 @@
 from mysql.connector import pooling
-import os
 from dotenv import load_dotenv
+import os
 
 class Mysql():
     def __init__(self) -> None:
@@ -23,9 +23,3 @@ class Mysql():
     def create_connect_pool(self):
         self.mysql_pool = pooling.MySQLConnectionPool(pool_name="tenpool", pool_size=2, **self.mysql_info())
         return self.mysql_pool
-
-
-
-# if __name__ != "__main__":
-#     mysql_istance = Mysql()
-#     mysql_istance.create_connect_pool()

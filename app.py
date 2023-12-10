@@ -25,7 +25,6 @@ def index():
     
 
 if __name__ == "__main__":
-    load_dotenv()
     app.secret_key = os.getenv("FLASK_SECRET_KEY")
     app.json.ensure_ascii = False
     app.config["TEMPLATES_AUTO_RELOAD"] = True
