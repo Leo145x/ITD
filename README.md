@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ITD (Image Text Detection) is a site that allows customers to upload videos and receive object tracking videos and a CSV file of tags.  
+ITD is a site that allows customers to upload videos and receive object tracking videos and a CSV file of tags.  
 It is recommended that the upload file size should not exceed 100 MB, and the client is expected to get the result in less than 3 minutes.
 
 Web link: [ITD Website](https://www.leo145x.com)
