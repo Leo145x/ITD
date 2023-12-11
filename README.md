@@ -1,34 +1,52 @@
-## ITD - Image Text Detection
-### Introduction  
-Client upload video on ITD website, then get object tracking video and labels CSV file.  
-Expect client get video less than 3 minutes for maximum 100 MB.  
-Link: https://www.leo145x.com
+# ITD - Image Text Detection
 
-### Frame  
+## Introduction
 
-![image](https://github.com/Leo145x/ITD/assets/122880911/d133d52d-0df3-462d-9ad6-22ba6b94150c)
+ITD (Image Text Detection) is a site that allows customers to upload videos and receive object tracking videos and a CSV file of tags.  
+It is recommended that the upload file size should not exceed 100 MB, and the client is expected to get the result in less than 3 minutes.
 
-### Development  
-**Front end:**  
-HTML, CSS, JavaScript
+Web link: [ITD Website](https://www.leo145x.com)
 
-**Back end:**  
-Python-Flask, opencv-python, RESTful API
+## Frame Example
 
-**Proxy:**  
-NGINX 
+![Frame Example](https://github.com/Leo145x/ITD/assets/122880911/d133d52d-0df3-462d-9ad6-22ba6b94150c)
 
-**Environment:**  
-Ubuntu-22.04   
+## Development
 
-**Deploy:**  
-docker  
+### Front End
 
-**Version control:**  
-Git, GitHub  
+- HTML
+- CSS
+- JavaScript
 
-**Cloud service:**  
-AWS, GCP  
+### Back End
 
-**Database:**  
-MySQL
+- Python (Flask)
+- OpenCV-Python
+- RESTful API
+
+### Proxy
+
+- NGINX
+
+### Environment
+
+- Ubuntu 22.04
+
+### Deployment
+
+- Docker
+
+### Version Control
+
+- Git
+- GitHub
+
+### Cloud Services
+
+- AWS
+- GCP
+
+### Database
+
+- MySQL
