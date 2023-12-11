@@ -6,7 +6,7 @@ Link: https://www.leo145x.com
 
 ### Frame  
 
-![image](https://github.com/Leo145x/ITD/assets/122880911/8a5d499e-3ea8-4d1b-b870-dc1ad291890c)  
+![image](https://github.com/Leo145x/ITD/assets/122880911/d133d52d-0df3-462d-9ad6-22ba6b94150c)
 
 ### Development  
 **Front end:**  
