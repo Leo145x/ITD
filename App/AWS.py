@@ -24,9 +24,5 @@ class Aws():
     def get_origin_url(self):
         return self._url
 
-class Url():
-    def __init__(self):
-        self.url = os.getenv("CLOUD_FRONT_URL")
-
 if __name__ != "__main__":
     load_dotenv()
