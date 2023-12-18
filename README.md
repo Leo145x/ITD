@@ -52,8 +52,8 @@ For more details on movie processing, see another repository：[video-parsing](h
 
 ### Cloud Services
 
-- AWS
-- GCP
+- AWS - EC2/RDS/S3/CDN
+- GCP - VM/cloud storage
 
 ### Database
 
