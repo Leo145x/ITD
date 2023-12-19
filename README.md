@@ -2,7 +2,7 @@
 
 ## Introduction
 
-ITD is a web that allows customers to upload videos and receive object tracking videos and a CSV file with tags.
+ITD is a web that allows customers to upload videos and receive object tracking videos and a CSV file with tags.  
 It is expected that users can quickly obtain video results and analyze the details of object tracking.
 
 Web link: [ITD Website](https://www.leo145x.com)
