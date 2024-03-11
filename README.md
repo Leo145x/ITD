@@ -18,7 +18,7 @@ For more details on movie processing, see another repository：[video-parsing](h
 
 ## Frame Example
 
-![image](https://github.com/Leo145x/ITD/assets/122880911/57aa174c-88d4-4b70-b79b-ce508c6c6beb)
+![image](https://github.com/Leo145x/ITD/assets/122880911/57aa174c-88d4-4b70-b79b-ce508c6c6beb=30%x)
 
 ## Development
 
